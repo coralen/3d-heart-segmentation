@@ -363,7 +363,6 @@ def main():
     process_dataset(
         input_dir=args.input_dir,
         output_dir=args.output_dir
-        #target_spacing=(args.spacing_x, args.spacing_y, args.spacing_z)
     )
     
     print("Processing complete!")
