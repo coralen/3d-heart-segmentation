@@ -28,8 +28,8 @@ To achieve this, the project focuses on:
 - **Deep Learning:** Still in research.
 
 ## Repository Structure
-- `data_investigation.ipynb` – Analyzing patient data, scan metrics, and identifying correlations to guide preprocessing.  
-- `pipeline.py` – Preprocessing volumetric MRI data, correcting distortions, and preparing standardized inputs as a modular pipeline.  
+- `metrics_and_processing.ipynb` – Analyzing scan metrics, identifying correlations, and evaluating processing techniques to refine preprocessing.
+- `preprocessing.py` – Preprocessing volumetric MRI data, correcting distortions, and preparing standardized inputs as a modular pipeline.  
 - `3d_segmentation.ipynb` - Visualizing 3D heart models and their segmentation.
 - `segmentation_model.ipynb` - Model training for predicting accurate masks based on refined data. 
 
