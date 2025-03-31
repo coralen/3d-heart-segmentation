@@ -1,4 +1,4 @@
-# 🫀 3D Heart Segmentation System
+# 🫀 3D Heart Segmentation
 > **What if we could transform raw MRI scans into interactive 3D models, revealing critical cardiac structures at a glance?**
 
 ![small_heart_image](https://github.com/user-attachments/assets/8720c7a3-a2ca-4d38-be1d-0983ba7e6907)
