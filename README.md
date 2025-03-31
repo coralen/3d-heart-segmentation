@@ -3,13 +3,13 @@
 
 ![small_heart_image](https://github.com/user-attachments/assets/8720c7a3-a2ca-4d38-be1d-0983ba7e6907)
 
-
 ## Overview
 This project explores the **intersection of medical imaging and computer vision**, focusing on **transforming volumetric MRI data into detailed 3D heart models** while preparing refined data for a **deep learning model** that predicts accurate segmentation masks. By applying advanced image processing techniques, correcting intensity distortions, and enhancing 3D mesh reconstructions, the system improves both **segmentation accuracy and diagnostic insights**.
 
+#### 🎯 **The ultimate goal is to improve medical analysis and diagnostic workflows, by leveraging 3D visualization and automated segmentation of critical heart structures.**
 
-## Project Goals
-The primary goal is to **streamline the diagnostic process** by:  
+## Project Objectives
+To achieve this, the project focuses on:
 - **Generating 3D heart models** through surface mesh reconstruction.  
 - **Training a predictive deep learning model** to segment heart structures based on refined MRI data and patient conditions.  
 
