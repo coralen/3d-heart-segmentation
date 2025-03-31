@@ -29,7 +29,7 @@ To achieve this, the project focuses on:
 
 ## Repository Structure
 - `metrics_and_processing.ipynb` – Analyzing scan metrics, identifying correlations, and evaluating processing techniques to refine preprocessing.
-- `preprocessing.py` – Preprocessing volumetric MRI data, correcting distortions, and preparing standardized inputs as a modular pipeline.  
+- `src/preprocessing.py` – Preprocessing volumetric MRI data, correcting distortions, and preparing standardized inputs as a modular pipeline.  
 - `3d_segmentation.ipynb` - Visualizing 3D heart models and their segmentation.
 - `segmentation_model.ipynb` - Model training for predicting accurate masks based on refined data. 
 
