@@ -5,7 +5,8 @@
 
 
 ## Overview
-This project explores the intersection of medical imaging and computer vision, focusing on transforming volumetric MRI data into detailed 3D heart models while preparing refined data for a deep learning model that predicts accurate segmentation masks. By applying advanced image processing techniques, correcting intensity distortions, and enhancing 3D mesh reconstructions, the system improves both segmentation accuracy and diagnostic insights.
+This project explores the **intersection of medical imaging and computer vision**, focusing on **transforming volumetric MRI data into detailed 3D heart models** while preparing refined data for a **deep learning model** that predicts accurate segmentation masks. By applying advanced image processing techniques, correcting intensity distortions, and enhancing 3D mesh reconstructions, the system improves both **segmentation accuracy and diagnostic insights**.
+
 
 ## Project Goals
 The primary goal is to **streamline the diagnostic process** by:  
