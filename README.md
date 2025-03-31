@@ -1,7 +1,8 @@
 # 🫀 3D Heart Segmentation System
 > **What if we could transform raw MRI scans into interactive 3D models, revealing critical cardiac structures at a glance?**
 
-![image](https://github.com/user-attachments/assets/101c13f8-8f79-445e-a760-d654616a26b8)
+![small_heart_image](https://github.com/user-attachments/assets/8720c7a3-a2ca-4d38-be1d-0983ba7e6907)
+
 
 ## Overview
 This project explores the intersection of medical imaging and computer vision, focusing on transforming volumetric MRI data into detailed 3D heart models while preparing refined data for a deep learning model that predicts accurate segmentation masks. By applying advanced image processing techniques, correcting intensity distortions, and enhancing 3D mesh reconstructions, the system improves both segmentation accuracy and diagnostic insights.
