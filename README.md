@@ -38,3 +38,11 @@ Upon completing this project, the system successfully:
 - **Transformed raw MRI scans** into accurate 3D heart models, enhancing anatomical visualization.  
 - **Standardized volumetric MRI data** by addressing artifacts and intensity distortions.  
 - **Developed a segmentation model** to predict masks based on patient conditions, utilizing refined MRI data and 3D heart models.  
+
+## Dataset
+ Dataset from ACDC challenge:
+  https://humanheart-project.creatis.insa-lyon.fr/database/
+
+*O. Bernard, A. Lalande, C. Zotti, F. Cervenansky, et al.
+"Deep Learning Techniques for Automatic MRI Cardiac Multi-structures Segmentation and Diagnosis: Is the Problem Solved ?" in IEEE Transactions on Medical Imaging, vol. 37, no. 11, pp. 2514-2525, Nov. 2018
+doi: 10.1109/TMI.2018.2837502*
