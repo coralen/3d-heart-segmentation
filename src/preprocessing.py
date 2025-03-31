@@ -43,7 +43,7 @@ class MedicalImagePipeline:
         if self.config['flip_correction']:
             stages.append(self.preprocessor.detect_and_correct_flip_handler)
         if self.config['bias_correction']:
-            stages.append(self.preprocessor.bias_field_correction)
+            stages.append(self.preprocessor.log_bias_correction_handler)
         if self.config['denoising']:
             stages.append(self.preprocessor.denoise)
         if self.config['resampling']:
@@ -139,68 +139,19 @@ class MedicalImagePreprocessor:
             aligned_mask = (aligned_mask > 0.5).astype(mask.dtype)
             
         return image, aligned_mask
+        
+    def log_bias_correction_handler(self, image):
+        return self.log_bias_correction(image, epsilon=1e-6)
 
-    def bias_field_correction(self, image):
-        """
-        Apply N4 bias field correction to an image.
-        
-        Args:
-            image: Input image data
             
-        Returns:
-            Bias-corrected image
-        """
-        try:
-            # Create a mask for the N4 correction (non-zero pixels)
-            mask = np.zeros_like(image, dtype=np.uint8)
-            mask[image > 0] = 1
-            
-            sitk_image = sitk.GetImageFromArray(image.astype(np.float32))
-            sitk_mask = sitk.GetImageFromArray(mask)
-            
-            corrector = sitk.N4BiasFieldCorrectionImageFilter()
-            corrected_image = corrector.Execute(sitk_image, sitk_mask)
-            
-            return sitk.GetArrayFromImage(corrected_image)
-        except RuntimeError:
-            # Fallback to log-based bias correction if N4 fails
-            return self.log_bias_correction(image)
-    
     def log_bias_correction(self, image, epsilon=1e-6):
-        """
-        Apply log-based bias correction as a fallback method.
         
-        Args:
-            image: Input image data
-            epsilon: Small value to avoid log(0)
-            
-        Returns:
-            Bias-corrected image
-        """
-        # Create a working copy
-        img = image.copy()
-        
-        # Preserve zeros (background)
-        mask = img > 0
-        
-        # Only process non-zero values
-        if np.sum(mask) > 0:
-            # Normalize to [epsilon,1] to avoid log issues
-            temp = img[mask]
-            normalized = (temp - np.min(temp)) / (np.max(temp) - np.min(temp) + epsilon)
-            normalized = normalized * (1 - epsilon) + epsilon
-            
-            # Apply log transform
-            corrected = np.log1p(normalized)
-            
-            # Scale back to original range
-            corrected = (corrected - np.min(corrected)) / (np.max(corrected) - np.min(corrected))
-            corrected = corrected * (np.max(temp) - np.min(temp)) + np.min(temp)
-            
-            # Update only the non-zero regions
-            img[mask] = corrected
-            
-        return img
+        image = (image - image.min()) / (image.max() - image.min() + epsilon)
+    
+        corrected = np.log1p(image)
+        corrected = (corrected - corrected.min()) / (corrected.max() - corrected.min()) * (image.max() - image.min()) + image.min()
+
+        return corrected.astype(image.dtype)
 
     def normalize_intensity(self, image, mask):
         """
@@ -363,6 +314,7 @@ def main():
     process_dataset(
         input_dir=args.input_dir,
         output_dir=args.output_dir
+        #target_spacing=(args.spacing_x, args.spacing_y, args.spacing_z)
     )
     
     print("Processing complete!")
