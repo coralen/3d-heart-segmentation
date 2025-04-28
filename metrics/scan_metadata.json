@@ -1,0 +1,2241 @@
+{
+    "train": {
+        "patient001": {
+            "Mean Intensity": 77.94703233506945,
+            "Std Intensity": 88.6452010850085,
+            "Shape": [
+                216,
+                256,
+                10
+            ],
+            "Mask Coverage (%)": 4.440646701388888,
+            "Voxel Spacing": [
+                1.5625,
+                1.5625,
+                10.0
+            ]
+        },
+        "patient002": {
+            "Mean Intensity": 90.8493584994612,
+            "Std Intensity": 86.0381430194905,
+            "Shape": [
+                232,
+                256,
+                10
+            ],
+            "Mask Coverage (%)": 4.689520474137931,
+            "Voxel Spacing": [
+                1.3671875,
+                1.3671875,
+                10.0
+            ]
+        },
+        "patient003": {
+            "Mean Intensity": 64.697705078125,
+            "Std Intensity": 79.27536571107659,
+            "Shape": [
+                256,
+                256,
+                10
+            ],
+            "Mask Coverage (%)": 4.13055419921875,
+            "Voxel Spacing": [
+                1.5625,
+                1.5625,
+                10.0
+            ]
+        },
+        "patient004": {
+            "Mean Intensity": 209.57775626346984,
+            "Std Intensity": 236.05598170864977,
+            "Shape": [
+                232,
+                256,
+                10
+            ],
+            "Mask Coverage (%)": 4.82421875,
+            "Voxel Spacing": [
+                1.3671875,
+                1.3671875,
+                10.0
+            ]
+        },
+        "patient005": {
+            "Mean Intensity": 71.23748010706018,
+            "Std Intensity": 74.99773795567334,
+            "Shape": [
+                256,
+                216,
+                10
+            ],
+            "Mask Coverage (%)": 6.059932002314815,
+            "Voxel Spacing": [
+                1.40625,
+                1.40625,
+                10.0
+            ]
+        },
+        "patient006": {
+            "Mean Intensity": 137.6322706455721,
+            "Std Intensity": 195.18733447065418,
+            "Shape": [
+                232,
+                256,
+                11
+            ],
+            "Mask Coverage (%)": 3.8687487754702197,
+            "Voxel Spacing": [
+                1.7578125,
+                1.7578125,
+                10.0
+            ]
+        },
+        "patient007": {
+            "Mean Intensity": 89.22117117117116,
+            "Std Intensity": 94.10144399639266,
+            "Shape": [
+                222,
+                224,
+                10
+            ],
+            "Mask Coverage (%)": 4.505711068211069,
+            "Voxel Spacing": [
+                1.875,
+                1.875,
+                10.0
+            ]
+        },
+        "patient008": {
+            "Mean Intensity": 198.094072265625,
+            "Std Intensity": 231.70656716123352,
+            "Shape": [
+                200,
+                256,
+                10
+            ],
+            "Mask Coverage (%)": 4.8490234375000005,
+            "Voxel Spacing": [
+                1.5625,
+                1.5625,
+                10.0
+            ]
+        },
+        "patient009": {
+            "Mean Intensity": 48.40121131310096,
+            "Std Intensity": 53.400344029303646,
+            "Shape": [
+                208,
+                256,
+                10
+            ],
+            "Mask Coverage (%)": 5.386868990384616,
+            "Voxel Spacing": [
+                1.3671900033950806,
+                1.3671900033950806,
+                10.0
+            ]
+        },
+        "patient010": {
+            "Mean Intensity": 48.19152080829327,
+            "Std Intensity": 53.397565057030214,
+            "Shape": [
+                208,
+                256,
+                10
+            ],
+            "Mask Coverage (%)": 5.569598858173077,
+            "Voxel Spacing": [
+                1.5625,
+                1.5625,
+                10.0
+            ]
+        },
+        "patient011": {
+            "Mean Intensity": 51.89919102044753,
+            "Std Intensity": 37.44888007425211,
+            "Shape": [
+                216,
+                256,
+                9
+            ],
+            "Mask Coverage (%)": 4.8022360468107,
+            "Voxel Spacing": [
+                1.4843800067901611,
+                1.4843800067901611,
+                10.0
+            ]
+        },
+        "patient012": {
+            "Mean Intensity": 48.8023777173913,
+            "Std Intensity": 41.19477460933757,
+            "Shape": [
+                184,
+                256,
+                10
+            ],
+            "Mask Coverage (%)": 4.942892323369565,
+            "Voxel Spacing": [
+                1.5625,
+                1.5625,
+                10.0
+            ]
+        },
+        "patient013": {
+            "Mean Intensity": 54.1736328125,
+            "Std Intensity": 29.356422636232733,
+            "Shape": [
+                216,
+                256,
+                10
+            ],
+            "Mask Coverage (%)": 5.302191840277778,
+            "Voxel Spacing": [
+                1.4453099966049194,
+                1.4453099966049194,
+                10.0
+            ]
+        },
+        "patient014": {
+            "Mean Intensity": 57.231530309606484,
+            "Std Intensity": 36.46937498643893,
+            "Shape": [
+                256,
+                216,
+                10
+            ],
+            "Mask Coverage (%)": 7.073025173611111,
+            "Voxel Spacing": [
+                1.3671900033950806,
+                1.3671900033950806,
+                10.0
+            ]
+        },
+        "patient015": {
+            "Mean Intensity": 50.30075713734568,
+            "Std Intensity": 39.195601831551784,
+            "Shape": [
+                256,
+                216,
+                9
+            ],
+            "Mask Coverage (%)": 4.535992155349794,
+            "Voxel Spacing": [
+                1.3671900033950806,
+                1.3671900033950806,
+                10.0
+            ]
+        },
+        "patient016": {
+            "Mean Intensity": 56.402565511067706,
+            "Std Intensity": 39.66712987544627,
+            "Shape": [
+                192,
+                256,
+                10
+            ],
+            "Mask Coverage (%)": 7.688802083333333,
+            "Voxel Spacing": [
+                1.4453099966049194,
+                1.4453099966049194,
+                10.0
+            ]
+        },
+        "patient017": {
+            "Mean Intensity": 53.84435884452161,
+            "Std Intensity": 28.782131883145347,
+            "Shape": [
+                216,
+                256,
+                9
+            ],
+            "Mask Coverage (%)": 6.452948173868313,
+            "Voxel Spacing": [
+                1.5625,
+                1.5625,
+                10.0
+            ]
+        },
+        "patient018": {
+            "Mean Intensity": 57.464425546151624,
+            "Std Intensity": 32.03693582965135,
+            "Shape": [
+                216,
+                256,
+                8
+            ],
+            "Mask Coverage (%)": 5.543800636574074,
+            "Voxel Spacing": [
+                1.3671900033950806,
+                1.3671900033950806,
+                10.0
+            ]
+        },
+        "patient019": {
+            "Mean Intensity": 52.58500368265993,
+            "Std Intensity": 38.495193260134286,
+            "Shape": [
+                216,
+                256,
+                11
+            ],
+            "Mask Coverage (%)": 5.305167561026936,
+            "Voxel Spacing": [
+                1.4453099966049194,
+                1.4453099966049194,
+                10.0
+            ]
+        },
+        "patient020": {
+            "Mean Intensity": 55.71635084885817,
+            "Std Intensity": 50.60346028260438,
+            "Shape": [
+                208,
+                256,
+                8
+            ],
+            "Mask Coverage (%)": 3.8977989783653846,
+            "Voxel Spacing": [
+                1.7578099966049194,
+                1.7578099966049194,
+                10.0
+            ]
+        },
+        "patient021": {
+            "Mean Intensity": 95.566474609375,
+            "Std Intensity": 138.15137422032709,
+            "Shape": [
+                240,
+                256,
+                10
+            ],
+            "Mask Coverage (%)": 3.3538411458333335,
+            "Voxel Spacing": [
+                1.6796875,
+                1.6796875,
+                10.0
+            ]
+        },
+        "patient022": {
+            "Mean Intensity": 98.04259486607143,
+            "Std Intensity": 137.44963174208408,
+            "Shape": [
+                200,
+                256,
+                7
+            ],
+            "Mask Coverage (%)": 2.851283482142857,
+            "Voxel Spacing": [
+                1.40625,
+                1.40625,
+                10.0
+            ]
+        },
+        "patient023": {
+            "Mean Intensity": 84.61823037229938,
+            "Std Intensity": 86.86131398384943,
+            "Shape": [
+                216,
+                256,
+                9
+            ],
+            "Mask Coverage (%)": 2.6927806712962963,
+            "Voxel Spacing": [
+                1.4453125,
+                1.4453125,
+                10.0
+            ]
+        },
+        "patient024": {
+            "Mean Intensity": 162.09561861478366,
+            "Std Intensity": 184.0633388907999,
+            "Shape": [
+                208,
+                256,
+                8
+            ],
+            "Mask Coverage (%)": 3.020301231971154,
+            "Voxel Spacing": [
+                1.5625,
+                1.5625,
+                10.0
+            ]
+        },
+        "patient025": {
+            "Mean Intensity": 83.06497022840712,
+            "Std Intensity": 80.74350816912013,
+            "Shape": [
+                256,
+                256,
+                9
+            ],
+            "Mask Coverage (%)": 4.574415418836805,
+            "Voxel Spacing": [
+                1.3671875,
+                1.3671875,
+                10.0
+            ]
+        },
+        "patient026": {
+            "Mean Intensity": 61.46049081307871,
+            "Std Intensity": 63.90726546614082,
+            "Shape": [
+                216,
+                256,
+                10
+            ],
+            "Mask Coverage (%)": 5.200557002314815,
+            "Voxel Spacing": [
+                1.3671875,
+                1.3671875,
+                10.0
+            ]
+        },
+        "patient027": {
+            "Mean Intensity": 75.73036024305556,
+            "Std Intensity": 78.31045475118034,
+            "Shape": [
+                216,
+                256,
+                10
+            ],
+            "Mask Coverage (%)": 4.174985532407407,
+            "Voxel Spacing": [
+                1.3671875,
+                1.3671875,
+                10.0
+            ]
+        },
+        "patient028": {
+            "Mean Intensity": 43.41322370256697,
+            "Std Intensity": 49.00840600736911,
+            "Shape": [
+                224,
+                256,
+                10
+            ],
+            "Mask Coverage (%)": 3.380475725446429,
+            "Voxel Spacing": [
+                1.5625,
+                1.5625,
+                10.0
+            ]
+        },
+        "patient029": {
+            "Mean Intensity": 58.37484833688447,
+            "Std Intensity": 71.49560574097599,
+            "Shape": [
+                192,
+                256,
+                11
+            ],
+            "Mask Coverage (%)": 4.646070075757576,
+            "Voxel Spacing": [
+                1.3671875,
+                1.3671875,
+                10.0
+            ]
+        },
+        "patient030": {
+            "Mean Intensity": 77.24144241898148,
+            "Std Intensity": 81.77337663580113,
+            "Shape": [
+                216,
+                256,
+                10
+            ],
+            "Mask Coverage (%)": 2.4687138310185186,
+            "Voxel Spacing": [
+                1.4453125,
+                1.4453125,
+                10.0
+            ]
+        },
+        "patient031": {
+            "Mean Intensity": 59.62594581886574,
+            "Std Intensity": 57.362587964965826,
+            "Shape": [
+                216,
+                256,
+                10
+            ],
+            "Mask Coverage (%)": 4.045681423611111,
+            "Voxel Spacing": [
+                1.484375,
+                1.484375,
+                10.0
+            ]
+        },
+        "patient032": {
+            "Mean Intensity": 94.79164876302083,
+            "Std Intensity": 88.37430664941397,
+            "Shape": [
+                240,
+                256,
+                10
+            ],
+            "Mask Coverage (%)": 3.4160156249999996,
+            "Voxel Spacing": [
+                1.5625,
+                1.5625,
+                10.0
+            ]
+        },
+        "patient033": {
+            "Mean Intensity": 103.43118489583334,
+            "Std Intensity": 99.08649359512533,
+            "Shape": [
+                216,
+                256,
+                10
+            ],
+            "Mask Coverage (%)": 2.903464988425926,
+            "Voxel Spacing": [
+                1.5625,
+                1.5625,
+                10.0
+            ]
+        },
+        "patient034": {
+            "Mean Intensity": 54.30768519810268,
+            "Std Intensity": 36.408100795309764,
+            "Shape": [
+                224,
+                256,
+                10
+            ],
+            "Mask Coverage (%)": 3.5321916852678568,
+            "Voxel Spacing": [
+                1.5625,
+                1.5625,
+                10.0
+            ]
+        },
+        "patient035": {
+            "Mean Intensity": 52.15957695774778,
+            "Std Intensity": 48.26870593736598,
+            "Shape": [
+                208,
+                256,
+                13
+            ],
+            "Mask Coverage (%)": 3.6335059171597637,
+            "Voxel Spacing": [
+                1.6796900033950806,
+                1.6796900033950806,
+                5.0
+            ]
+        },
+        "patient036": {
+            "Mean Intensity": 51.135403103298614,
+            "Std Intensity": 37.35345206398667,
+            "Shape": [
+                216,
+                256,
+                8
+            ],
+            "Mask Coverage (%)": 4.192663122106482,
+            "Voxel Spacing": [
+                1.4453099966049194,
+                1.4453099966049194,
+                10.0
+            ]
+        },
+        "patient037": {
+            "Mean Intensity": 54.78609664351852,
+            "Std Intensity": 27.26357319704845,
+            "Shape": [
+                216,
+                256,
+                7
+            ],
+            "Mask Coverage (%)": 1.7681464947089947,
+            "Voxel Spacing": [
+                1.875,
+                1.875,
+                10.0
+            ]
+        },
+        "patient038": {
+            "Mean Intensity": 57.26567689462561,
+            "Std Intensity": 48.02621795128028,
+            "Shape": [
+                276,
+                384,
+                8
+            ],
+            "Mask Coverage (%)": 6.696057895531402,
+            "Voxel Spacing": [
+                0.8333330154418945,
+                0.8333330154418945,
+                10.0
+            ]
+        },
+        "patient039": {
+            "Mean Intensity": 52.892872345753204,
+            "Std Intensity": 45.241129256685255,
+            "Shape": [
+                208,
+                256,
+                9
+            ],
+            "Mask Coverage (%)": 3.5177116720085473,
+            "Voxel Spacing": [
+                1.6406199932098389,
+                1.6406199932098389,
+                10.0
+            ]
+        },
+        "patient040": {
+            "Mean Intensity": 54.13446514423077,
+            "Std Intensity": 52.50568000079744,
+            "Shape": [
+                208,
+                256,
+                10
+            ],
+            "Mask Coverage (%)": 4.4257061298076925,
+            "Voxel Spacing": [
+                1.4843800067901611,
+                1.4843800067901611,
+                10.0
+            ]
+        },
+        "patient041": {
+            "Mean Intensity": 56.68004986085343,
+            "Std Intensity": 45.96804128860542,
+            "Shape": [
+                154,
+                224,
+                6
+            ],
+            "Mask Coverage (%)": 4.178745361781076,
+            "Voxel Spacing": [
+                1.7857099771499634,
+                1.7857099771499634,
+                10.0
+            ]
+        },
+        "patient042": {
+            "Mean Intensity": 112.59875815672893,
+            "Std Intensity": 119.69795374477641,
+            "Shape": [
+                232,
+                256,
+                9
+            ],
+            "Mask Coverage (%)": 3.105356501436782,
+            "Voxel Spacing": [
+                1.7578125,
+                1.7578125,
+                10.0
+            ]
+        },
+        "patient043": {
+            "Mean Intensity": 54.80929289819376,
+            "Std Intensity": 50.39953882363609,
+            "Shape": [
+                174,
+                224,
+                12
+            ],
+            "Mask Coverage (%)": 3.2618363437328957,
+            "Voxel Spacing": [
+                1.9196399450302124,
+                1.9196399450302124,
+                6.5
+            ]
+        },
+        "patient044": {
+            "Mean Intensity": 58.6469224215535,
+            "Std Intensity": 76.00965136710201,
+            "Shape": [
+                256,
+                216,
+                9
+            ],
+            "Mask Coverage (%)": 3.06933995627572,
+            "Voxel Spacing": [
+                1.3671875,
+                1.3671875,
+                10.0
+            ]
+        },
+        "patient045": {
+            "Mean Intensity": 50.14326829176683,
+            "Std Intensity": 47.8019802074052,
+            "Shape": [
+                208,
+                256,
+                8
+            ],
+            "Mask Coverage (%)": 4.741727388822115,
+            "Voxel Spacing": [
+                1.5625,
+                1.5625,
+                10.0
+            ]
+        },
+        "patient046": {
+            "Mean Intensity": 56.64934775270062,
+            "Std Intensity": 37.313044711205485,
+            "Shape": [
+                256,
+                216,
+                9
+            ],
+            "Mask Coverage (%)": 4.39674157664609,
+            "Voxel Spacing": [
+                1.5625,
+                1.5625,
+                10.0
+            ]
+        },
+        "patient047": {
+            "Mean Intensity": 50.5616945446047,
+            "Std Intensity": 41.870317369257464,
+            "Shape": [
+                256,
+                208,
+                9
+            ],
+            "Mask Coverage (%)": 3.4288194444444446,
+            "Voxel Spacing": [
+                1.6796900033950806,
+                1.6796900033950806,
+                10.0
+            ]
+        },
+        "patient048": {
+            "Mean Intensity": 52.030172494741585,
+            "Std Intensity": 49.79898202597353,
+            "Shape": [
+                208,
+                256,
+                8
+            ],
+            "Mask Coverage (%)": 3.4663273737980766,
+            "Voxel Spacing": [
+                1.5625,
+                1.5625,
+                10.0
+            ]
+        },
+        "patient049": {
+            "Mean Intensity": 97.01468718998017,
+            "Std Intensity": 87.91928642023186,
+            "Shape": [
+                256,
+                216,
+                7
+            ],
+            "Mask Coverage (%)": 3.5463686342592595,
+            "Voxel Spacing": [
+                1.3671875,
+                1.3671875,
+                10.0
+            ]
+        },
+        "patient050": {
+            "Mean Intensity": 62.32551663306452,
+            "Std Intensity": 68.34700155793898,
+            "Shape": [
+                248,
+                256,
+                10
+            ],
+            "Mask Coverage (%)": 4.100459929435484,
+            "Voxel Spacing": [
+                1.3671875,
+                1.3671875,
+                10.0
+            ]
+        },
+        "patient051": {
+            "Mean Intensity": 48.35554722377232,
+            "Std Intensity": 40.45941098663444,
+            "Shape": [
+                224,
+                256,
+                10
+            ],
+            "Mask Coverage (%)": 3.156389508928571,
+            "Voxel Spacing": [
+                1.6406199932098389,
+                1.6406199932098389,
+                10.0
+            ]
+        },
+        "patient052": {
+            "Mean Intensity": 54.0763255931713,
+            "Std Intensity": 38.14421028566866,
+            "Shape": [
+                216,
+                256,
+                8
+            ],
+            "Mask Coverage (%)": 4.457600911458334,
+            "Voxel Spacing": [
+                1.4843800067901611,
+                1.4843800067901611,
+                10.0
+            ]
+        },
+        "patient053": {
+            "Mean Intensity": 59.35364479993386,
+            "Std Intensity": 34.09047975341667,
+            "Shape": [
+                216,
+                256,
+                7
+            ],
+            "Mask Coverage (%)": 5.154338210978835,
+            "Voxel Spacing": [
+                1.3671900033950806,
+                1.3671900033950806,
+                10.0
+            ]
+        },
+        "patient054": {
+            "Mean Intensity": 58.72379105179398,
+            "Std Intensity": 29.82844698114595,
+            "Shape": [
+                216,
+                256,
+                8
+            ],
+            "Mask Coverage (%)": 4.063811125578703,
+            "Voxel Spacing": [
+                1.4843800067901611,
+                1.4843800067901611,
+                10.0
+            ]
+        },
+        "patient055": {
+            "Mean Intensity": 55.70886381172839,
+            "Std Intensity": 36.37694436872298,
+            "Shape": [
+                256,
+                216,
+                9
+            ],
+            "Mask Coverage (%)": 3.9072546939300414,
+            "Voxel Spacing": [
+                1.4843800067901611,
+                1.4843800067901611,
+                10.0
+            ]
+        },
+        "patient056": {
+            "Mean Intensity": 60.94949604552469,
+            "Std Intensity": 26.050868151918426,
+            "Shape": [
+                216,
+                256,
+                9
+            ],
+            "Mask Coverage (%)": 4.691920653292181,
+            "Voxel Spacing": [
+                1.3671900033950806,
+                1.3671900033950806,
+                10.0
+            ]
+        },
+        "patient057": {
+            "Mean Intensity": 50.53977210499416,
+            "Std Intensity": 47.4957321684775,
+            "Shape": [
+                428,
+                512,
+                8
+            ],
+            "Mask Coverage (%)": 4.326422860689252,
+            "Voxel Spacing": [
+                0.703125,
+                0.703125,
+                10.0
+            ]
+        },
+        "patient058": {
+            "Mean Intensity": 58.48341049382716,
+            "Std Intensity": 27.39357897463981,
+            "Shape": [
+                216,
+                256,
+                9
+            ],
+            "Mask Coverage (%)": 3.970550411522634,
+            "Voxel Spacing": [
+                1.40625,
+                1.40625,
+                10.0
+            ]
+        },
+        "patient059": {
+            "Mean Intensity": 58.79840213477366,
+            "Std Intensity": 28.865830032079643,
+            "Shape": [
+                256,
+                216,
+                9
+            ],
+            "Mask Coverage (%)": 4.372026105967078,
+            "Voxel Spacing": [
+                1.3671900033950806,
+                1.3671900033950806,
+                10.0
+            ]
+        },
+        "patient060": {
+            "Mean Intensity": 57.223940248842595,
+            "Std Intensity": 36.09833055781984,
+            "Shape": [
+                216,
+                256,
+                9
+            ],
+            "Mask Coverage (%)": 3.339200745884774,
+            "Voxel Spacing": [
+                1.5625,
+                1.5625,
+                10.0
+            ]
+        },
+        "patient061": {
+            "Mean Intensity": 71.53063914609054,
+            "Std Intensity": 69.88431740009,
+            "Shape": [
+                216,
+                256,
+                9
+            ],
+            "Mask Coverage (%)": 4.513487011316872,
+            "Voxel Spacing": [
+                1.3671875,
+                1.3671875,
+                10.0
+            ]
+        },
+        "patient062": {
+            "Mean Intensity": 49.569191261574076,
+            "Std Intensity": 48.83317299354951,
+            "Shape": [
+                256,
+                216,
+                10
+            ],
+            "Mask Coverage (%)": 4.599066840277778,
+            "Voxel Spacing": [
+                1.3671875,
+                1.3671875,
+                10.0
+            ]
+        },
+        "patient063": {
+            "Mean Intensity": 241.5907121138139,
+            "Std Intensity": 273.73165485731056,
+            "Shape": [
+                256,
+                176,
+                8
+            ],
+            "Mask Coverage (%)": 4.095736416903409,
+            "Voxel Spacing": [
+                1.3671875,
+                1.3671875,
+                10.0
+            ]
+        },
+        "patient064": {
+            "Mean Intensity": 67.62968388310185,
+            "Std Intensity": 65.91969958367206,
+            "Shape": [
+                216,
+                256,
+                10
+            ],
+            "Mask Coverage (%)": 3.8684534143518516,
+            "Voxel Spacing": [
+                1.4453125,
+                1.4453125,
+                10.0
+            ]
+        },
+        "patient065": {
+            "Mean Intensity": 69.7384619472789,
+            "Std Intensity": 71.07076159694243,
+            "Shape": [
+                210,
+                224,
+                8
+            ],
+            "Mask Coverage (%)": 3.116496598639456,
+            "Voxel Spacing": [
+                1.875,
+                1.875,
+                10.0
+            ]
+        },
+        "patient066": {
+            "Mean Intensity": 74.34072446469908,
+            "Std Intensity": 69.4128034791167,
+            "Shape": [
+                240,
+                256,
+                9
+            ],
+            "Mask Coverage (%)": 4.332320601851851,
+            "Voxel Spacing": [
+                1.3671875,
+                1.3671875,
+                10.0
+            ]
+        },
+        "patient067": {
+            "Mean Intensity": 43.703454137731484,
+            "Std Intensity": 52.39671503224972,
+            "Shape": [
+                256,
+                216,
+                10
+            ],
+            "Mask Coverage (%)": 4.27734375,
+            "Voxel Spacing": [
+                1.3671875,
+                1.3671875,
+                10.0
+            ]
+        },
+        "patient068": {
+            "Mean Intensity": 45.48984535971841,
+            "Std Intensity": 48.97637868522803,
+            "Shape": [
+                256,
+                208,
+                7
+            ],
+            "Mask Coverage (%)": 3.3715552026098905,
+            "Voxel Spacing": [
+                1.5625,
+                1.5625,
+                10.0
+            ]
+        },
+        "patient069": {
+            "Mean Intensity": 42.63979828042328,
+            "Std Intensity": 37.01936088375983,
+            "Shape": [
+                216,
+                256,
+                7
+            ],
+            "Mask Coverage (%)": 2.2316261574074074,
+            "Voxel Spacing": [
+                1.5625,
+                1.5625,
+                10.0
+            ]
+        },
+        "patient070": {
+            "Mean Intensity": 54.85025728665865,
+            "Std Intensity": 49.62283701984043,
+            "Shape": [
+                208,
+                256,
+                6
+            ],
+            "Mask Coverage (%)": 3.2311072716346154,
+            "Voxel Spacing": [
+                1.5625,
+                1.5625,
+                10.0
+            ]
+        },
+        "patient071": {
+            "Mean Intensity": 50.429219563802086,
+            "Std Intensity": 57.94696028784603,
+            "Shape": [
+                192,
+                256,
+                10
+            ],
+            "Mask Coverage (%)": 3.921915690104167,
+            "Voxel Spacing": [
+                1.5625,
+                1.5625,
+                10.0
+            ]
+        },
+        "patient072": {
+            "Mean Intensity": 83.16317409939236,
+            "Std Intensity": 81.64783423063957,
+            "Shape": [
+                216,
+                256,
+                8
+            ],
+            "Mask Coverage (%)": 3.2970287181712967,
+            "Voxel Spacing": [
+                1.5625,
+                1.5625,
+                10.0
+            ]
+        },
+        "patient073": {
+            "Mean Intensity": 194.52985222785028,
+            "Std Intensity": 242.11791100680432,
+            "Shape": [
+                208,
+                256,
+                7
+            ],
+            "Mask Coverage (%)": 3.6929623111263736,
+            "Voxel Spacing": [
+                1.640625,
+                1.640625,
+                10.0
+            ]
+        },
+        "patient074": {
+            "Mean Intensity": 53.966129302978516,
+            "Std Intensity": 33.4942256028611,
+            "Shape": [
+                256,
+                256,
+                8
+            ],
+            "Mask Coverage (%)": 3.5427093505859375,
+            "Voxel Spacing": [
+                1.5625,
+                1.5625,
+                10.0
+            ]
+        },
+        "patient075": {
+            "Mean Intensity": 57.421043640670554,
+            "Std Intensity": 48.94264458166528,
+            "Shape": [
+                168,
+                224,
+                14
+            ],
+            "Mask Coverage (%)": 3.714923469387755,
+            "Voxel Spacing": [
+                1.7857099771499634,
+                1.7857099771499634,
+                5.0
+            ]
+        },
+        "patient076": {
+            "Mean Intensity": 53.966129302978516,
+            "Std Intensity": 33.4942256028611,
+            "Shape": [
+                256,
+                256,
+                8
+            ],
+            "Mask Coverage (%)": 3.598785400390625,
+            "Voxel Spacing": [
+                1.5625,
+                1.5625,
+                10.0
+            ]
+        },
+        "patient077": {
+            "Mean Intensity": 50.27361318998248,
+            "Std Intensity": 47.25481124673597,
+            "Shape": [
+                214,
+                256,
+                8
+            ],
+            "Mask Coverage (%)": 4.486483279789719,
+            "Voxel Spacing": [
+                1.40625,
+                1.40625,
+                10.0
+            ]
+        },
+        "patient078": {
+            "Mean Intensity": 60.15891746238426,
+            "Std Intensity": 35.17786308709511,
+            "Shape": [
+                216,
+                256,
+                8
+            ],
+            "Mask Coverage (%)": 5.8351869936342595,
+            "Voxel Spacing": [
+                1.3671900033950806,
+                1.3671900033950806,
+                10.0
+            ]
+        },
+        "patient079": {
+            "Mean Intensity": 57.103903436856996,
+            "Std Intensity": 35.87874816692364,
+            "Shape": [
+                216,
+                256,
+                9
+            ],
+            "Mask Coverage (%)": 3.7509243184156373,
+            "Voxel Spacing": [
+                1.3671900033950806,
+                1.3671900033950806,
+                10.0
+            ]
+        },
+        "patient080": {
+            "Mean Intensity": 46.25267349054784,
+            "Std Intensity": 39.6783885146623,
+            "Shape": [
+                216,
+                256,
+                6
+            ],
+            "Mask Coverage (%)": 2.764817226080247,
+            "Voxel Spacing": [
+                1.7578099966049194,
+                1.7578099966049194,
+                10.0
+            ]
+        },
+        "patient081": {
+            "Mean Intensity": 52.60887877878424,
+            "Std Intensity": 51.53818645096849,
+            "Shape": [
+                154,
+                224,
+                17
+            ],
+            "Mask Coverage (%)": 5.266765797227982,
+            "Voxel Spacing": [
+                1.6517900228500366,
+                1.6517900228500366,
+                5.0
+            ]
+        },
+        "patient082": {
+            "Mean Intensity": 52.97398792613637,
+            "Std Intensity": 46.344078445736784,
+            "Shape": [
+                224,
+                154,
+                16
+            ],
+            "Mask Coverage (%)": 5.238469677643785,
+            "Voxel Spacing": [
+                1.7857099771499634,
+                1.7857099771499634,
+                5.0
+            ]
+        },
+        "patient083": {
+            "Mean Intensity": 50.30648099459135,
+            "Std Intensity": 49.44691927294207,
+            "Shape": [
+                208,
+                256,
+                6
+            ],
+            "Mask Coverage (%)": 3.7209535256410255,
+            "Voxel Spacing": [
+                1.5625,
+                1.5625,
+                10.0
+            ]
+        },
+        "patient084": {
+            "Mean Intensity": 46.242574055989586,
+            "Std Intensity": 44.59486365064667,
+            "Shape": [
+                208,
+                256,
+                12
+            ],
+            "Mask Coverage (%)": 3.772129156650641,
+            "Voxel Spacing": [
+                1.3671900033950806,
+                1.3671900033950806,
+                5.0
+            ]
+        },
+        "patient085": {
+            "Mean Intensity": 46.76204584339774,
+            "Std Intensity": 37.69062688418459,
+            "Shape": [
+                184,
+                288,
+                15
+            ],
+            "Mask Coverage (%)": 5.695828301127214,
+            "Voxel Spacing": [
+                1.2152800559997559,
+                1.2152800559997559,
+                5.0
+            ]
+        },
+        "patient086": {
+            "Mean Intensity": 56.64489455450149,
+            "Std Intensity": 52.12308861936063,
+            "Shape": [
+                192,
+                256,
+                7
+            ],
+            "Mask Coverage (%)": 4.894728887648809,
+            "Voxel Spacing": [
+                1.5625,
+                1.5625,
+                10.0
+            ]
+        },
+        "patient087": {
+            "Mean Intensity": 52.54780644955842,
+            "Std Intensity": 40.74444269542417,
+            "Shape": [
+                256,
+                184,
+                8
+            ],
+            "Mask Coverage (%)": 6.779148267663043,
+            "Voxel Spacing": [
+                1.4453099966049194,
+                1.4453099966049194,
+                10.0
+            ]
+        },
+        "patient088": {
+            "Mean Intensity": 48.96003703327922,
+            "Std Intensity": 49.04336792871607,
+            "Shape": [
+                224,
+                154,
+                16
+            ],
+            "Mask Coverage (%)": 5.489223388218924,
+            "Voxel Spacing": [
+                1.6517900228500366,
+                1.6517900228500366,
+                5.0
+            ]
+        },
+        "patient089": {
+            "Mean Intensity": 50.00321355920314,
+            "Std Intensity": 36.36402283859818,
+            "Shape": [
+                264,
+                288,
+                6
+            ],
+            "Mask Coverage (%)": 2.4932484567901234,
+            "Voxel Spacing": [
+                1.4583300352096558,
+                1.4583300352096558,
+                10.0
+            ]
+        },
+        "patient091": {
+            "Mean Intensity": 52.51889880952381,
+            "Std Intensity": 29.844287880180314,
+            "Shape": [
+                180,
+                224,
+                8
+            ],
+            "Mask Coverage (%)": 4.748263888888888,
+            "Voxel Spacing": [
+                1.5625,
+                1.5625,
+                10.0
+            ]
+        },
+        "patient092": {
+            "Mean Intensity": 64.18883178603006,
+            "Std Intensity": 34.71522884947568,
+            "Shape": [
+                174,
+                208,
+                15
+            ],
+            "Mask Coverage (%)": 5.314434129089301,
+            "Voxel Spacing": [
+                1.6826900243759155,
+                1.6826900243759155,
+                5.0
+            ]
+        },
+        "patient093": {
+            "Mean Intensity": 51.940190972222226,
+            "Std Intensity": 30.284005495515597,
+            "Shape": [
+                180,
+                224,
+                10
+            ],
+            "Mask Coverage (%)": 5.8261408730158735,
+            "Voxel Spacing": [
+                1.5625,
+                1.5625,
+                7.0
+            ]
+        },
+        "patient094": {
+            "Mean Intensity": 44.738041556145006,
+            "Std Intensity": 38.77048531006235,
+            "Shape": [
+                208,
+                174,
+                10
+            ],
+            "Mask Coverage (%)": 3.4803271441202472,
+            "Voxel Spacing": [
+                1.6826900243759155,
+                1.6826900243759155,
+                5.0
+            ]
+        },
+        "patient095": {
+            "Mean Intensity": 53.785531816893425,
+            "Std Intensity": 36.330773027885925,
+            "Shape": [
+                180,
+                224,
+                14
+            ],
+            "Mask Coverage (%)": 5.761231575963719,
+            "Voxel Spacing": [
+                1.5625,
+                1.5625,
+                5.0
+            ]
+        },
+        "patient096": {
+            "Mean Intensity": 57.12215713724334,
+            "Std Intensity": 29.177584130334456,
+            "Shape": [
+                174,
+                208,
+                18
+            ],
+            "Mask Coverage (%)": 5.999484232242853,
+            "Voxel Spacing": [
+                1.6826900243759155,
+                1.6826900243759155,
+                5.0
+            ]
+        },
+        "patient097": {
+            "Mean Intensity": 57.88977728949653,
+            "Std Intensity": 28.444513320211307,
+            "Shape": [
+                216,
+                256,
+                8
+            ],
+            "Mask Coverage (%)": 4.378029152199074,
+            "Voxel Spacing": [
+                1.4843800067901611,
+                1.4843800067901611,
+                10.0
+            ]
+        },
+        "patient098": {
+            "Mean Intensity": 51.89190383184524,
+            "Std Intensity": 29.569939459199304,
+            "Shape": [
+                216,
+                256,
+                7
+            ],
+            "Mask Coverage (%)": 5.8221726190476195,
+            "Voxel Spacing": [
+                1.25,
+                1.25,
+                10.0
+            ]
+        },
+        "patient099": {
+            "Mean Intensity": 56.00448059195269,
+            "Std Intensity": 45.85760077127306,
+            "Shape": [
+                154,
+                224,
+                16
+            ],
+            "Mask Coverage (%)": 4.924483998144712,
+            "Voxel Spacing": [
+                1.7857099771499634,
+                1.7857099771499634,
+                5.0
+            ]
+        },
+        "patient100": {
+            "Mean Intensity": 50.65335648148148,
+            "Std Intensity": 45.80926737267116,
+            "Shape": [
+                216,
+                304,
+                8
+            ],
+            "Mask Coverage (%)": 3.5833942495126703,
+            "Voxel Spacing": [
+                1.315790057182312,
+                1.315790057182312,
+                10.0
+            ]
+        }
+    },
+    "val": {
+        "patient101": {
+            "Mean Intensity": 51.964584455818965,
+            "Std Intensity": 37.10325162885692,
+            "Shape": [
+                232,
+                256,
+                10
+            ],
+            "Mask Coverage (%)": 3.002424568965517,
+            "Voxel Spacing": [
+                1.6406199932098389,
+                1.6406199932098389,
+                10.0
+            ]
+        },
+        "patient102": {
+            "Mean Intensity": 52.985414858217595,
+            "Std Intensity": 39.42242147029049,
+            "Shape": [
+                216,
+                256,
+                8
+            ],
+            "Mask Coverage (%)": 2.339454933449074,
+            "Voxel Spacing": [
+                1.5625,
+                1.5625,
+                10.0
+            ]
+        },
+        "patient103": {
+            "Mean Intensity": 57.68504452803498,
+            "Std Intensity": 28.86340227638856,
+            "Shape": [
+                216,
+                256,
+                9
+            ],
+            "Mask Coverage (%)": 3.6281507201646095,
+            "Voxel Spacing": [
+                1.5625,
+                1.5625,
+                10.0
+            ]
+        },
+        "patient104": {
+            "Mean Intensity": 57.523715027377136,
+            "Std Intensity": 34.227722221617704,
+            "Shape": [
+                208,
+                256,
+                9
+            ],
+            "Mask Coverage (%)": 4.879891159188034,
+            "Voxel Spacing": [
+                1.3671900033950806,
+                1.3671900033950806,
+                10.0
+            ]
+        },
+        "patient105": {
+            "Mean Intensity": 52.98052431303879,
+            "Std Intensity": 37.602242438316985,
+            "Shape": [
+                232,
+                256,
+                10
+            ],
+            "Mask Coverage (%)": 2.883553340517241,
+            "Voxel Spacing": [
+                1.4843800067901611,
+                1.4843800067901611,
+                10.0
+            ]
+        },
+        "patient106": {
+            "Mean Intensity": 53.31171231995885,
+            "Std Intensity": 37.565979408311264,
+            "Shape": [
+                216,
+                256,
+                9
+            ],
+            "Mask Coverage (%)": 5.89574492026749,
+            "Voxel Spacing": [
+                1.5625,
+                1.5625,
+                10.0
+            ]
+        },
+        "patient107": {
+            "Mean Intensity": 49.728853202160494,
+            "Std Intensity": 37.347864124019374,
+            "Shape": [
+                256,
+                216,
+                9
+            ],
+            "Mask Coverage (%)": 3.5837432484567904,
+            "Voxel Spacing": [
+                1.3671900033950806,
+                1.3671900033950806,
+                10.0
+            ]
+        },
+        "patient108": {
+            "Mean Intensity": 50.14556640625,
+            "Std Intensity": 36.41522723551344,
+            "Shape": [
+                240,
+                256,
+                10
+            ],
+            "Mask Coverage (%)": 3.5577799479166665,
+            "Voxel Spacing": [
+                1.5625,
+                1.5625,
+                10.0
+            ]
+        },
+        "patient109": {
+            "Mean Intensity": 62.11919642857143,
+            "Std Intensity": 36.0113139952404,
+            "Shape": [
+                224,
+                180,
+                8
+            ],
+            "Mask Coverage (%)": 6.032676091269841,
+            "Voxel Spacing": [
+                1.5625,
+                1.5625,
+                10.0
+            ]
+        },
+        "patient110": {
+            "Mean Intensity": 58.61907230581276,
+            "Std Intensity": 33.665126525567835,
+            "Shape": [
+                216,
+                256,
+                9
+            ],
+            "Mask Coverage (%)": 3.389234503600823,
+            "Voxel Spacing": [
+                1.5625,
+                1.5625,
+                10.0
+            ]
+        },
+        "patient111": {
+            "Mean Intensity": 55.32484545366044,
+            "Std Intensity": 47.51081712903761,
+            "Shape": [
+                214,
+                256,
+                6
+            ],
+            "Mask Coverage (%)": 4.456288940809968,
+            "Voxel Spacing": [
+                1.40625,
+                1.40625,
+                10.0
+            ]
+        },
+        "patient112": {
+            "Mean Intensity": 55.72782888104839,
+            "Std Intensity": 36.09683467476408,
+            "Shape": [
+                248,
+                256,
+                10
+            ],
+            "Mask Coverage (%)": 4.704038558467742,
+            "Voxel Spacing": [
+                1.3671900033950806,
+                1.3671900033950806,
+                10.0
+            ]
+        },
+        "patient113": {
+            "Mean Intensity": 56.16019009725906,
+            "Std Intensity": 29.231014757413487,
+            "Shape": [
+                208,
+                174,
+                10
+            ],
+            "Mask Coverage (%)": 6.329851900972591,
+            "Voxel Spacing": [
+                1.6826900243759155,
+                1.6826900243759155,
+                10.0
+            ]
+        },
+        "patient114": {
+            "Mean Intensity": 59.67342040193603,
+            "Std Intensity": 26.214440028244994,
+            "Shape": [
+                216,
+                256,
+                11
+            ],
+            "Mask Coverage (%)": 5.924150357744107,
+            "Voxel Spacing": [
+                1.3671900033950806,
+                1.3671900033950806,
+                10.0
+            ]
+        },
+        "patient115": {
+            "Mean Intensity": 57.02905092592592,
+            "Std Intensity": 36.27988743687873,
+            "Shape": [
+                216,
+                256,
+                10
+            ],
+            "Mask Coverage (%)": 4.504304108796296,
+            "Voxel Spacing": [
+                1.3671900033950806,
+                1.3671900033950806,
+                10.0
+            ]
+        },
+        "patient116": {
+            "Mean Intensity": 52.79674660011574,
+            "Std Intensity": 37.713829718243446,
+            "Shape": [
+                216,
+                256,
+                10
+            ],
+            "Mask Coverage (%)": 3.044704861111111,
+            "Voxel Spacing": [
+                1.5625,
+                1.5625,
+                10.0
+            ]
+        },
+        "patient117": {
+            "Mean Intensity": 54.99579535590278,
+            "Std Intensity": 27.79970807133844,
+            "Shape": [
+                256,
+                216,
+                10
+            ],
+            "Mask Coverage (%)": 7.733289930555555,
+            "Voxel Spacing": [
+                1.3671900033950806,
+                1.3671900033950806,
+                10.0
+            ]
+        },
+        "patient118": {
+            "Mean Intensity": 55.70886381172839,
+            "Std Intensity": 36.37694436872298,
+            "Shape": [
+                256,
+                216,
+                9
+            ],
+            "Mask Coverage (%)": 3.9860226980452675,
+            "Voxel Spacing": [
+                1.4843800067901611,
+                1.4843800067901611,
+                10.0
+            ]
+        },
+        "patient119": {
+            "Mean Intensity": 50.773534612784104,
+            "Std Intensity": 29.761918797440128,
+            "Shape": [
+                174,
+                208,
+                17
+            ],
+            "Mask Coverage (%)": 5.189967233577781,
+            "Voxel Spacing": [
+                1.6826900243759155,
+                1.6826900243759155,
+                5.0
+            ]
+        },
+        "patient120": {
+            "Mean Intensity": 50.1908890673676,
+            "Std Intensity": 45.00837196211421,
+            "Shape": [
+                214,
+                256,
+                9
+            ],
+            "Mask Coverage (%)": 3.1069493120456904,
+            "Voxel Spacing": [
+                1.40625,
+                1.40625,
+                10.0
+            ]
+        },
+        "patient121": {
+            "Mean Intensity": 51.85331325301205,
+            "Std Intensity": 39.04479177335646,
+            "Shape": [
+                240,
+                166,
+                8
+            ],
+            "Mask Coverage (%)": 5.807605421686747,
+            "Voxel Spacing": [
+                1.6666699647903442,
+                1.6666699647903442,
+                10.0
+            ]
+        },
+        "patient122": {
+            "Mean Intensity": 55.022949735449735,
+            "Std Intensity": 53.80334528474902,
+            "Shape": [
+                180,
+                224,
+                9
+            ],
+            "Mask Coverage (%)": 4.844576719576719,
+            "Voxel Spacing": [
+                1.696429967880249,
+                1.696429967880249,
+                10.0
+            ]
+        },
+        "patient123": {
+            "Mean Intensity": 55.36565483940972,
+            "Std Intensity": 36.4042770098499,
+            "Shape": [
+                216,
+                256,
+                8
+            ],
+            "Mask Coverage (%)": 3.3928765190972223,
+            "Voxel Spacing": [
+                1.4843800067901611,
+                1.4843800067901611,
+                10.0
+            ]
+        },
+        "patient124": {
+            "Mean Intensity": 53.67833840266876,
+            "Std Intensity": 37.68054170686421,
+            "Shape": [
+                168,
+                208,
+                21
+            ],
+            "Mask Coverage (%)": 4.236983254840398,
+            "Voxel Spacing": [
+                1.6826900243759155,
+                1.6826900243759155,
+                5.0
+            ]
+        },
+        "patient125": {
+            "Mean Intensity": 49.90752262443439,
+            "Std Intensity": 38.4898404513477,
+            "Shape": [
+                208,
+                162,
+                17
+            ],
+            "Mask Coverage (%)": 3.7522345120384335,
+            "Voxel Spacing": [
+                1.6826900243759155,
+                1.6826900243759155,
+                5.0
+            ]
+        },
+        "patient126": {
+            "Mean Intensity": 45.78648423684792,
+            "Std Intensity": 26.106080119606307,
+            "Shape": [
+                208,
+                174,
+                16
+            ],
+            "Mask Coverage (%)": 3.485058852785146,
+            "Voxel Spacing": [
+                1.6826900243759155,
+                1.6826900243759155,
+                5.0
+            ]
+        },
+        "patient127": {
+            "Mean Intensity": 45.16130291897836,
+            "Std Intensity": 37.75844188436634,
+            "Shape": [
+                162,
+                208,
+                19
+            ],
+            "Mask Coverage (%)": 4.68211126105863,
+            "Voxel Spacing": [
+                1.6826900243759155,
+                1.6826900243759155,
+                5.0
+            ]
+        },
+        "patient128": {
+            "Mean Intensity": 55.525589554398145,
+            "Std Intensity": 36.25629435620085,
+            "Shape": [
+                216,
+                256,
+                9
+            ],
+            "Mask Coverage (%)": 3.9379983281893,
+            "Voxel Spacing": [
+                1.4843800067901611,
+                1.4843800067901611,
+                10.0
+            ]
+        },
+        "patient129": {
+            "Mean Intensity": 54.80140749481611,
+            "Std Intensity": 51.79971437422829,
+            "Shape": [
+                154,
+                224,
+                17
+            ],
+            "Mask Coverage (%)": 6.507659882134672,
+            "Voxel Spacing": [
+                1.6517900228500366,
+                1.6517900228500366,
+                5.0
+            ]
+        },
+        "patient130": {
+            "Mean Intensity": 55.69816623263889,
+            "Std Intensity": 36.545866135064664,
+            "Shape": [
+                256,
+                216,
+                10
+            ],
+            "Mask Coverage (%)": 5.343424479166667,
+            "Voxel Spacing": [
+                1.3671900033950806,
+                1.3671900033950806,
+                10.0
+            ]
+        },
+        "patient131": {
+            "Mean Intensity": 46.12770882009346,
+            "Std Intensity": 49.6607939930991,
+            "Shape": [
+                256,
+                214,
+                10
+            ],
+            "Mask Coverage (%)": 5.428227219626168,
+            "Voxel Spacing": [
+                1.40625,
+                1.40625,
+                10.0
+            ]
+        },
+        "patient132": {
+            "Mean Intensity": 55.309742052801724,
+            "Std Intensity": 29.25014687925018,
+            "Shape": [
+                256,
+                232,
+                10
+            ],
+            "Mask Coverage (%)": 5.406788793103448,
+            "Voxel Spacing": [
+                1.3671900033950806,
+                1.3671900033950806,
+                10.0
+            ]
+        },
+        "patient133": {
+            "Mean Intensity": 55.18391985212054,
+            "Std Intensity": 35.895272539562185,
+            "Shape": [
+                224,
+                256,
+                10
+            ],
+            "Mask Coverage (%)": 5.423060825892858,
+            "Voxel Spacing": [
+                1.5625,
+                1.5625,
+                10.0
+            ]
+        },
+        "patient134": {
+            "Mean Intensity": 102.66757746738216,
+            "Std Intensity": 101.50104669892005,
+            "Shape": [
+                216,
+                256,
+                11
+            ],
+            "Mask Coverage (%)": 2.891545664983165,
+            "Voxel Spacing": [
+                1.4453125,
+                1.4453125,
+                10.0
+            ]
+        },
+        "patient135": {
+            "Mean Intensity": 49.353016493055556,
+            "Std Intensity": 34.8603192461514,
+            "Shape": [
+                216,
+                256,
+                10
+            ],
+            "Mask Coverage (%)": 3.269495081018518,
+            "Voxel Spacing": [
+                1.9531199932098389,
+                1.9531199932098389,
+                10.0
+            ]
+        },
+        "patient136": {
+            "Mean Intensity": 53.637968388310185,
+            "Std Intensity": 36.551457710858024,
+            "Shape": [
+                256,
+                216,
+                10
+            ],
+            "Mask Coverage (%)": 3.863570601851852,
+            "Voxel Spacing": [
+                1.6406199932098389,
+                1.6406199932098389,
+                10.0
+            ]
+        },
+        "patient137": {
+            "Mean Intensity": 54.02176769868827,
+            "Std Intensity": 35.76322009191613,
+            "Shape": [
+                216,
+                256,
+                9
+            ],
+            "Mask Coverage (%)": 5.161112718621399,
+            "Voxel Spacing": [
+                1.3671900033950806,
+                1.3671900033950806,
+                10.0
+            ]
+        },
+        "patient138": {
+            "Mean Intensity": 55.02770543981482,
+            "Std Intensity": 34.33792297558451,
+            "Shape": [
+                216,
+                256,
+                9
+            ],
+            "Mask Coverage (%)": 4.706589184670782,
+            "Voxel Spacing": [
+                1.3671900033950806,
+                1.3671900033950806,
+                10.0
+            ]
+        },
+        "patient139": {
+            "Mean Intensity": 56.837035809018566,
+            "Std Intensity": 36.78147136885277,
+            "Shape": [
+                174,
+                208,
+                16
+            ],
+            "Mask Coverage (%)": 4.495295921750663,
+            "Voxel Spacing": [
+                1.6826900243759155,
+                1.6826900243759155,
+                5.0
+            ]
+        },
+        "patient140": {
+            "Mean Intensity": 51.61812417108753,
+            "Std Intensity": 30.470108856864456,
+            "Shape": [
+                174,
+                208,
+                20
+            ],
+            "Mask Coverage (%)": 6.084908267020336,
+            "Voxel Spacing": [
+                1.6826900243759155,
+                1.6826900243759155,
+                5.0
+            ]
+        },
+        "patient141": {
+            "Mean Intensity": 51.220849609375,
+            "Std Intensity": 29.938534599986674,
+            "Shape": [
+                256,
+                216,
+                10
+            ],
+            "Mask Coverage (%)": 5.366572627314815,
+            "Voxel Spacing": [
+                1.3671900033950806,
+                1.3671900033950806,
+                10.0
+            ]
+        },
+        "patient142": {
+            "Mean Intensity": 58.96173547815393,
+            "Std Intensity": 26.684548265608527,
+            "Shape": [
+                216,
+                256,
+                8
+            ],
+            "Mask Coverage (%)": 4.543276186342593,
+            "Voxel Spacing": [
+                1.3671900033950806,
+                1.3671900033950806,
+                10.0
+            ]
+        },
+        "patient143": {
+            "Mean Intensity": 53.36065538194445,
+            "Std Intensity": 37.04987667426947,
+            "Shape": [
+                256,
+                216,
+                10
+            ],
+            "Mask Coverage (%)": 5.428783275462963,
+            "Voxel Spacing": [
+                1.3671900033950806,
+                1.3671900033950806,
+                10.0
+            ]
+        },
+        "patient144": {
+            "Mean Intensity": 51.72783796363902,
+            "Std Intensity": 48.31303421880533,
+            "Shape": [
+                214,
+                256,
+                8
+            ],
+            "Mask Coverage (%)": 3.2970392815420557,
+            "Voxel Spacing": [
+                1.40625,
+                1.40625,
+                10.0
+            ]
+        },
+        "patient145": {
+            "Mean Intensity": 38.8757357893319,
+            "Std Intensity": 37.075429822351204,
+            "Shape": [
+                232,
+                256,
+                10
+            ],
+            "Mask Coverage (%)": 2.879175646551724,
+            "Voxel Spacing": [
+                1.7578099966049194,
+                1.7578099966049194,
+                10.0
+            ]
+        },
+        "patient146": {
+            "Mean Intensity": 50.53150443007663,
+            "Std Intensity": 37.96603217476967,
+            "Shape": [
+                232,
+                256,
+                9
+            ],
+            "Mask Coverage (%)": 3.718420737547893,
+            "Voxel Spacing": [
+                1.4843800067901611,
+                1.4843800067901611,
+                10.0
+            ]
+        },
+        "patient147": {
+            "Mean Intensity": 43.08301305076628,
+            "Std Intensity": 35.84685794618621,
+            "Shape": [
+                232,
+                288,
+                15
+            ],
+            "Mask Coverage (%)": 3.544161079182631,
+            "Voxel Spacing": [
+                1.736109972000122,
+                1.736109972000122,
+                5.0
+            ]
+        },
+        "patient148": {
+            "Mean Intensity": 54.45190175374349,
+            "Std Intensity": 50.07718713364935,
+            "Shape": [
+                192,
+                256,
+                8
+            ],
+            "Mask Coverage (%)": 4.107920328776041,
+            "Voxel Spacing": [
+                1.4843800067901611,
+                1.4843800067901611,
+                10.0
+            ]
+        },
+        "patient149": {
+            "Mean Intensity": 47.426710353387854,
+            "Std Intensity": 45.412065992538196,
+            "Shape": [
+                214,
+                256,
+                10
+            ],
+            "Mask Coverage (%)": 4.894677278037383,
+            "Voxel Spacing": [
+                1.40625,
+                1.40625,
+                10.0
+            ]
+        },
+        "patient150": {
+            "Mean Intensity": 53.596340603298614,
+            "Std Intensity": 36.7380787925563,
+            "Shape": [
+                216,
+                256,
+                8
+            ],
+            "Mask Coverage (%)": 3.7939001012731484,
+            "Voxel Spacing": [
+                1.3671900033950806,
+                1.3671900033950806,
+                10.0
+            ]
+        }
+    }
+}

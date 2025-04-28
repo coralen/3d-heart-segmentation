@@ -1,0 +1,1206 @@
+{
+    "train": {
+        "patient001": {
+            "ED": "1",
+            "ES": "12",
+            "Group": "DCM",
+            "Height": "184.0",
+            "NbFrame": "30",
+            "Weight": "95.0"
+        },
+        "patient002": {
+            "ED": "1",
+            "ES": "12",
+            "Group": "DCM",
+            "Height": "160.0",
+            "NbFrame": "30",
+            "Weight": "70.0"
+        },
+        "patient003": {
+            "ED": "1",
+            "ES": "15",
+            "Group": "DCM",
+            "Height": "165.0",
+            "NbFrame": "30",
+            "Weight": "77.0"
+        },
+        "patient004": {
+            "ED": "1",
+            "ES": "15",
+            "Group": "DCM",
+            "Height": "159.0",
+            "NbFrame": "28",
+            "Weight": "46.0"
+        },
+        "patient005": {
+            "ED": "1",
+            "ES": "13",
+            "Group": "DCM",
+            "Height": "165.0",
+            "NbFrame": "30",
+            "Weight": "77.0"
+        },
+        "patient006": {
+            "ED": "1",
+            "ES": "16",
+            "Group": "DCM",
+            "Height": "180.0",
+            "NbFrame": "28",
+            "Weight": "70.0"
+        },
+        "patient007": {
+            "ED": "1",
+            "ES": "7",
+            "Group": "DCM",
+            "Height": "173.0",
+            "NbFrame": "16",
+            "Weight": "107.0"
+        },
+        "patient008": {
+            "ED": "1",
+            "ES": "13",
+            "Group": "DCM",
+            "Height": "180.0",
+            "NbFrame": "28",
+            "Weight": "100.0"
+        },
+        "patient009": {
+            "ED": "1",
+            "ES": "13",
+            "Group": "DCM",
+            "Height": "153.0",
+            "NbFrame": "35",
+            "Weight": "61.0"
+        },
+        "patient010": {
+            "ED": "1",
+            "ES": "13",
+            "Group": "DCM",
+            "Height": "170.0",
+            "NbFrame": "28",
+            "Weight": "68.0"
+        },
+        "patient011": {
+            "ED": "1",
+            "ES": "8",
+            "Group": "DCM",
+            "Height": "180.0",
+            "NbFrame": "15",
+            "Weight": "70.0"
+        },
+        "patient012": {
+            "ED": "1",
+            "ES": "13",
+            "Group": "DCM",
+            "Height": "160.0",
+            "NbFrame": "30",
+            "Weight": "59.0"
+        },
+        "patient013": {
+            "ED": "1",
+            "ES": "14",
+            "Group": "DCM",
+            "Height": "175.0",
+            "NbFrame": "30",
+            "Weight": "57.0"
+        },
+        "patient014": {
+            "ED": "1",
+            "ES": "13",
+            "Group": "DCM",
+            "Height": "175.0",
+            "NbFrame": "30",
+            "Weight": "75.0"
+        },
+        "patient015": {
+            "ED": "1",
+            "ES": "10",
+            "Group": "DCM",
+            "Height": "158.0",
+            "NbFrame": "21",
+            "Weight": "57.0"
+        },
+        "patient016": {
+            "ED": "1",
+            "ES": "12",
+            "Group": "DCM",
+            "Height": "173.0",
+            "NbFrame": "30",
+            "Weight": "54.0"
+        },
+        "patient017": {
+            "ED": "1",
+            "ES": "9",
+            "Group": "DCM",
+            "Height": "178",
+            "NbFrame": "19",
+            "Weight": "85"
+        },
+        "patient018": {
+            "ED": "1",
+            "ES": "10",
+            "Group": "DCM",
+            "Height": "161",
+            "NbFrame": "13",
+            "Weight": "79"
+        },
+        "patient019": {
+            "ED": "1",
+            "ES": "11",
+            "Group": "DCM",
+            "Height": "191",
+            "NbFrame": "30",
+            "Weight": "97"
+        },
+        "patient020": {
+            "ED": "1",
+            "ES": "11",
+            "Group": "DCM",
+            "Height": "182",
+            "NbFrame": "20",
+            "Weight": "106"
+        },
+        "patient021": {
+            "ED": "1",
+            "ES": "13",
+            "Group": "HCM",
+            "Height": "192.0",
+            "NbFrame": "30",
+            "Weight": "110.0"
+        },
+        "patient022": {
+            "ED": "1",
+            "ES": "11",
+            "Group": "HCM",
+            "Height": "165.0",
+            "NbFrame": "28",
+            "Weight": "42.0"
+        },
+        "patient023": {
+            "ED": "1",
+            "ES": "9",
+            "Group": "HCM",
+            "Height": "166.0",
+            "NbFrame": "25",
+            "Weight": "74.0"
+        },
+        "patient024": {
+            "ED": "1",
+            "ES": "9",
+            "Group": "HCM",
+            "Height": "175.0",
+            "NbFrame": "28",
+            "Weight": "85.0"
+        },
+        "patient025": {
+            "ED": "1",
+            "ES": "9",
+            "Group": "HCM",
+            "Height": "174.0",
+            "NbFrame": "25",
+            "Weight": "82.0"
+        },
+        "patient026": {
+            "ED": "1",
+            "ES": "12",
+            "Group": "HCM",
+            "Height": "170.0",
+            "NbFrame": "28",
+            "Weight": "70.0"
+        },
+        "patient027": {
+            "ED": "1",
+            "ES": "11",
+            "Group": "HCM",
+            "Height": "158.0",
+            "NbFrame": "30",
+            "Weight": "60.0"
+        },
+        "patient028": {
+            "ED": "1",
+            "ES": "9",
+            "Group": "HCM",
+            "Height": "177.0",
+            "NbFrame": "28",
+            "Weight": "76.0"
+        },
+        "patient029": {
+            "ED": "1",
+            "ES": "12",
+            "Group": "HCM",
+            "Height": "163.0",
+            "NbFrame": "30",
+            "Weight": "55.0"
+        },
+        "patient030": {
+            "ED": "1",
+            "ES": "12",
+            "Group": "HCM",
+            "Height": "150.0",
+            "NbFrame": "35",
+            "Weight": "54.0"
+        },
+        "patient031": {
+            "ED": "1",
+            "ES": "10",
+            "Group": "HCM",
+            "Height": "176.0",
+            "NbFrame": "30",
+            "Weight": "89.0"
+        },
+        "patient032": {
+            "ED": "1",
+            "ES": "12",
+            "Group": "HCM",
+            "Height": "186.0",
+            "NbFrame": "30",
+            "Weight": "123.0"
+        },
+        "patient033": {
+            "ED": "1",
+            "ES": "14",
+            "Group": "HCM",
+            "Height": "165.0",
+            "NbFrame": "30",
+            "Weight": "89.0"
+        },
+        "patient034": {
+            "ED": "1",
+            "ES": "16",
+            "Group": "HCM",
+            "Height": "172.0",
+            "NbFrame": "30",
+            "Weight": "79.0"
+        },
+        "patient035": {
+            "ED": "1",
+            "ES": "11",
+            "Group": "HCM",
+            "Height": "170.0",
+            "NbFrame": "28",
+            "Weight": "80.0"
+        },
+        "patient036": {
+            "ED": "1",
+            "ES": "12",
+            "Group": "HCM",
+            "Height": "160.0",
+            "NbFrame": "35",
+            "Weight": "80.0"
+        },
+        "patient037": {
+            "ED": "1",
+            "ES": "12",
+            "Group": "HCM",
+            "Height": "169.0",
+            "NbFrame": "30",
+            "Weight": "105.0"
+        },
+        "patient038": {
+            "ED": "1",
+            "ES": "11",
+            "Group": "HCM",
+            "Height": "160.0",
+            "NbFrame": "24",
+            "Weight": "59.0"
+        },
+        "patient039": {
+            "ED": "1",
+            "ES": "10",
+            "Group": "HCM",
+            "Height": "175.0",
+            "NbFrame": "28",
+            "Weight": "100.0"
+        },
+        "patient040": {
+            "ED": "1",
+            "ES": "13",
+            "Group": "HCM",
+            "Height": "172.0",
+            "NbFrame": "35",
+            "Weight": "95.0"
+        },
+        "patient041": {
+            "ED": "1",
+            "ES": "11",
+            "Group": "MINF",
+            "Height": "170.0",
+            "NbFrame": "17",
+            "Weight": "70.0"
+        },
+        "patient042": {
+            "ED": "1",
+            "ES": "16",
+            "Group": "MINF",
+            "Height": "168.0",
+            "NbFrame": "35",
+            "Weight": "99.0"
+        },
+        "patient043": {
+            "ED": "1",
+            "ES": "7",
+            "Group": "MINF",
+            "Height": "165.0",
+            "NbFrame": "13",
+            "Weight": "76.0"
+        },
+        "patient044": {
+            "ED": "1",
+            "ES": "11",
+            "Group": "MINF",
+            "Height": "180.0",
+            "NbFrame": "30",
+            "Weight": "54.0"
+        },
+        "patient045": {
+            "ED": "1",
+            "ES": "13",
+            "Group": "MINF",
+            "Height": "174.0",
+            "NbFrame": "35",
+            "Weight": "68.0"
+        },
+        "patient046": {
+            "ED": "1",
+            "ES": "10",
+            "Group": "MINF",
+            "Height": "186.0",
+            "NbFrame": "30",
+            "Weight": "74.0"
+        },
+        "patient047": {
+            "ED": "1",
+            "ES": "9",
+            "Group": "MINF",
+            "Height": "180.0",
+            "NbFrame": "22",
+            "Weight": "82.0"
+        },
+        "patient048": {
+            "ED": "1",
+            "ES": "8",
+            "Group": "MINF",
+            "Height": "167.0",
+            "NbFrame": "28",
+            "Weight": "73.0"
+        },
+        "patient049": {
+            "ED": "1",
+            "ES": "11",
+            "Group": "MINF",
+            "Height": "171.0",
+            "NbFrame": "35",
+            "Weight": "72.0"
+        },
+        "patient050": {
+            "ED": "1",
+            "ES": "12",
+            "Group": "MINF",
+            "Height": "162.0",
+            "NbFrame": "30",
+            "Weight": "57.0"
+        },
+        "patient051": {
+            "ED": "1",
+            "ES": "11",
+            "Group": "MINF",
+            "Height": "170.0",
+            "NbFrame": "30",
+            "Weight": "91.0"
+        },
+        "patient052": {
+            "ED": "1",
+            "ES": "9",
+            "Group": "MINF",
+            "Height": "161.0",
+            "NbFrame": "20",
+            "Weight": "85.0"
+        },
+        "patient053": {
+            "ED": "1",
+            "ES": "12",
+            "Group": "MINF",
+            "Height": "176.0",
+            "NbFrame": "30",
+            "Weight": "77.0"
+        },
+        "patient054": {
+            "ED": "1",
+            "ES": "12",
+            "Group": "MINF",
+            "Height": "176.0",
+            "NbFrame": "30",
+            "Weight": "94.0"
+        },
+        "patient055": {
+            "ED": "1",
+            "ES": "10",
+            "Group": "MINF",
+            "Height": "180.0",
+            "NbFrame": "25",
+            "Weight": "82.0"
+        },
+        "patient056": {
+            "ED": "1",
+            "ES": "12",
+            "Group": "MINF",
+            "Height": "170",
+            "NbFrame": "30",
+            "Weight": "62"
+        },
+        "patient057": {
+            "ED": "1",
+            "ES": "9",
+            "Group": "MINF",
+            "Height": "175",
+            "NbFrame": "25",
+            "Weight": "80"
+        },
+        "patient058": {
+            "ED": "1",
+            "ES": "14",
+            "Group": "MINF",
+            "Height": "168",
+            "NbFrame": "30",
+            "Weight": "68"
+        },
+        "patient059": {
+            "ED": "1",
+            "ES": "9",
+            "Group": "MINF",
+            "Height": "173",
+            "NbFrame": "30",
+            "Weight": "68"
+        },
+        "patient060": {
+            "ED": "1",
+            "ES": "14",
+            "Group": "MINF",
+            "Height": "172",
+            "NbFrame": "30",
+            "Weight": "51"
+        },
+        "patient061": {
+            "ED": "1",
+            "ES": "10",
+            "Group": "NOR",
+            "Height": "187.0",
+            "NbFrame": "30",
+            "Weight": "95.0"
+        },
+        "patient062": {
+            "ED": "1",
+            "ES": "9",
+            "Group": "NOR",
+            "Height": "172.0",
+            "NbFrame": "30",
+            "Weight": "74.0"
+        },
+        "patient063": {
+            "ED": "1",
+            "ES": "16",
+            "Group": "NOR",
+            "Height": "165.0",
+            "NbFrame": "35",
+            "Weight": "49.0"
+        },
+        "patient064": {
+            "ED": "1",
+            "ES": "12",
+            "Group": "NOR",
+            "Height": "175.0",
+            "NbFrame": "35",
+            "Weight": "97.0"
+        },
+        "patient065": {
+            "ED": "1",
+            "ES": "14",
+            "Group": "NOR",
+            "Height": "180.0",
+            "NbFrame": "30",
+            "Weight": "92.0"
+        },
+        "patient066": {
+            "ED": "1",
+            "ES": "11",
+            "Group": "NOR",
+            "Height": "175.0",
+            "NbFrame": "30",
+            "Weight": "80.0"
+        },
+        "patient067": {
+            "ED": "1",
+            "ES": "10",
+            "Group": "NOR",
+            "Height": "178.0",
+            "NbFrame": "30",
+            "Weight": "60.0"
+        },
+        "patient068": {
+            "ED": "1",
+            "ES": "12",
+            "Group": "NOR",
+            "Height": "154.0",
+            "NbFrame": "28",
+            "Weight": "64.0"
+        },
+        "patient069": {
+            "ED": "1",
+            "ES": "12",
+            "Group": "NOR",
+            "Height": "160.0",
+            "NbFrame": "30",
+            "Weight": "53.0"
+        },
+        "patient070": {
+            "ED": "1",
+            "ES": "10",
+            "Group": "NOR",
+            "Height": "158.0",
+            "NbFrame": "28",
+            "Weight": "79.0"
+        },
+        "patient071": {
+            "ED": "1",
+            "ES": "9",
+            "Group": "NOR",
+            "Height": "169.0",
+            "NbFrame": "30",
+            "Weight": "61.0"
+        },
+        "patient072": {
+            "ED": "1",
+            "ES": "11",
+            "Group": "NOR",
+            "Height": "160.0",
+            "NbFrame": "30",
+            "Weight": "78.0"
+        },
+        "patient073": {
+            "ED": "1",
+            "ES": "10",
+            "Group": "NOR",
+            "Height": "185.0",
+            "NbFrame": "35",
+            "Weight": "96.0"
+        },
+        "patient074": {
+            "ED": "1",
+            "ES": "12",
+            "Group": "NOR",
+            "Height": "175.0",
+            "NbFrame": "30",
+            "Weight": "87.0"
+        },
+        "patient075": {
+            "ED": "1",
+            "ES": "6",
+            "Group": "NOR",
+            "Height": "179.0",
+            "NbFrame": "14",
+            "Weight": "93.0"
+        },
+        "patient076": {
+            "ED": "1",
+            "ES": "12",
+            "Group": "NOR",
+            "Height": "175",
+            "NbFrame": "30",
+            "Weight": "87"
+        },
+        "patient077": {
+            "ED": "1",
+            "ES": "9",
+            "Group": "NOR",
+            "Height": "180",
+            "NbFrame": "25",
+            "Weight": "75"
+        },
+        "patient078": {
+            "ED": "1",
+            "ES": "9",
+            "Group": "NOR",
+            "Height": "185",
+            "NbFrame": "30",
+            "Weight": "84"
+        },
+        "patient079": {
+            "ED": "1",
+            "ES": "11",
+            "Group": "NOR",
+            "Height": "178",
+            "NbFrame": "30",
+            "Weight": "80"
+        },
+        "patient080": {
+            "ED": "1",
+            "ES": "10",
+            "Group": "NOR",
+            "Height": "155",
+            "NbFrame": "21",
+            "Weight": "74"
+        },
+        "patient081": {
+            "ED": "1",
+            "ES": "7",
+            "Group": "RV",
+            "Height": "177.0",
+            "NbFrame": "16",
+            "Weight": "70.0"
+        },
+        "patient082": {
+            "ED": "1",
+            "ES": "7",
+            "Group": "RV",
+            "Height": "183.0",
+            "NbFrame": "17",
+            "Weight": "82.0"
+        },
+        "patient083": {
+            "ED": "1",
+            "ES": "8",
+            "Group": "RV",
+            "Height": "160.0",
+            "NbFrame": "17",
+            "Weight": "58.0"
+        },
+        "patient084": {
+            "ED": "1",
+            "ES": "10",
+            "Group": "RV",
+            "Height": "140.0",
+            "NbFrame": "35",
+            "Weight": "35.0"
+        },
+        "patient085": {
+            "ED": "1",
+            "ES": "9",
+            "Group": "RV",
+            "Height": "172.0",
+            "NbFrame": "30",
+            "Weight": "61.0"
+        },
+        "patient086": {
+            "ED": "1",
+            "ES": "8",
+            "Group": "RV",
+            "Height": "165.0",
+            "NbFrame": "19",
+            "Weight": "70.0"
+        },
+        "patient087": {
+            "ED": "1",
+            "ES": "10",
+            "Group": "RV",
+            "Height": "170.0",
+            "NbFrame": "28",
+            "Weight": "64.0"
+        },
+        "patient088": {
+            "ED": "1",
+            "ES": "12",
+            "Group": "RV",
+            "Height": "180.0",
+            "NbFrame": "25",
+            "Weight": "70.0"
+        },
+        "patient089": {
+            "ED": "1",
+            "ES": "10",
+            "Group": "RV",
+            "Height": "170.0",
+            "NbFrame": "30",
+            "Weight": "103.0"
+        },
+        "patient090": {
+            "ED": "4",
+            "ES": "11",
+            "Group": "RV",
+            "Height": "150.0",
+            "NbFrame": "12",
+            "Weight": "66.0"
+        },
+        "patient091": {
+            "ED": "1",
+            "ES": "9",
+            "Group": "RV",
+            "Height": "162.0",
+            "NbFrame": "16",
+            "Weight": "53.0"
+        },
+        "patient092": {
+            "ED": "1",
+            "ES": "6",
+            "Group": "RV",
+            "Height": "170.0",
+            "NbFrame": "15",
+            "Weight": "69.0"
+        },
+        "patient093": {
+            "ED": "1",
+            "ES": "14",
+            "Group": "RV",
+            "Height": "165",
+            "NbFrame": "30",
+            "Weight": "65"
+        },
+        "patient094": {
+            "ED": "1",
+            "ES": "7",
+            "Group": "RV",
+            "Height": "164.0",
+            "NbFrame": "14",
+            "Weight": "45.0"
+        },
+        "patient095": {
+            "ED": "1",
+            "ES": "12",
+            "Group": "RV",
+            "Height": "165.0",
+            "NbFrame": "30",
+            "Weight": "76.0"
+        },
+        "patient096": {
+            "ED": "1",
+            "ES": "8",
+            "Group": "RV",
+            "Height": "186",
+            "NbFrame": "15",
+            "Weight": "76"
+        },
+        "patient097": {
+            "ED": "1",
+            "ES": "11",
+            "Group": "RV",
+            "Height": "187",
+            "NbFrame": "30",
+            "Weight": "82"
+        },
+        "patient098": {
+            "ED": "1",
+            "ES": "9",
+            "Group": "RV",
+            "Height": "167",
+            "NbFrame": "22",
+            "Weight": "50"
+        },
+        "patient099": {
+            "ED": "1",
+            "ES": "9",
+            "Group": "RV",
+            "Height": "180",
+            "NbFrame": "19",
+            "Weight": "80"
+        },
+        "patient100": {
+            "ED": "1",
+            "ES": "13",
+            "Group": "RV",
+            "Height": "165",
+            "NbFrame": "34",
+            "Weight": "63"
+        }
+    },
+    "val": {
+        "patient101": {
+            "ED": "1",
+            "ES": "14",
+            "Group": "DCM",
+            "Height": "169.0",
+            "NbFrame": "30",
+            "Weight": "79.0"
+        },
+        "patient102": {
+            "ED": "1",
+            "ES": "13",
+            "Group": "NOR",
+            "Height": "156.0",
+            "NbFrame": "30",
+            "Weight": "75.0"
+        },
+        "patient103": {
+            "ED": "1",
+            "ES": "11",
+            "Group": "MINF",
+            "Height": "175.0",
+            "NbFrame": "30",
+            "Weight": "107.0"
+        },
+        "patient104": {
+            "ED": "1",
+            "ES": "11",
+            "Group": "HCM",
+            "Height": "180.0",
+            "NbFrame": "30",
+            "Weight": "74.0"
+        },
+        "patient105": {
+            "ED": "1",
+            "ES": "10",
+            "Group": "HCM",
+            "Height": "173.0",
+            "NbFrame": "30",
+            "Weight": "84.0"
+        },
+        "patient106": {
+            "ED": "1",
+            "ES": "13",
+            "Group": "DCM",
+            "Height": "181.0",
+            "NbFrame": "30",
+            "Weight": "91.0"
+        },
+        "patient107": {
+            "ED": "1",
+            "ES": "10",
+            "Group": "NOR",
+            "Height": "155.0",
+            "NbFrame": "30",
+            "Weight": "47.0"
+        },
+        "patient108": {
+            "ED": "1",
+            "ES": "9",
+            "Group": "HCM",
+            "Height": "170.0",
+            "NbFrame": "30",
+            "Weight": "90.0"
+        },
+        "patient109": {
+            "ED": "1",
+            "ES": "10",
+            "Group": "RV",
+            "Height": "180.0",
+            "NbFrame": "30",
+            "Weight": "60.0"
+        },
+        "patient110": {
+            "ED": "1",
+            "ES": "11",
+            "Group": "NOR",
+            "Height": "167.0",
+            "NbFrame": "30",
+            "Weight": "116.0"
+        },
+        "patient111": {
+            "ED": "1",
+            "ES": "7",
+            "Group": "HCM",
+            "Height": "172.0",
+            "NbFrame": "15",
+            "Weight": "80.0"
+        },
+        "patient112": {
+            "ED": "1",
+            "ES": "12",
+            "Group": "MINF",
+            "Height": "172.0",
+            "NbFrame": "30",
+            "Weight": "90.0"
+        },
+        "patient113": {
+            "ED": "1",
+            "ES": "8",
+            "Group": "DCM",
+            "Height": "183.0",
+            "NbFrame": "15",
+            "Weight": "95.0"
+        },
+        "patient114": {
+            "ED": "1",
+            "ES": "11",
+            "Group": "HCM",
+            "Height": "172.0",
+            "NbFrame": "30",
+            "Weight": "80.0"
+        },
+        "patient115": {
+            "ED": "1",
+            "ES": "13",
+            "Group": "MINF",
+            "Height": "165.0",
+            "NbFrame": "30",
+            "Weight": "92.0"
+        },
+        "patient116": {
+            "ED": "1",
+            "ES": "9",
+            "Group": "HCM",
+            "Height": "165.0",
+            "NbFrame": "30",
+            "Weight": "83.0"
+        },
+        "patient117": {
+            "ED": "1",
+            "ES": "13",
+            "Group": "DCM",
+            "Height": "180.0",
+            "NbFrame": "30",
+            "Weight": "92.0"
+        },
+        "patient118": {
+            "ED": "1",
+            "ES": "10",
+            "Group": "MINF",
+            "Height": "176.0",
+            "NbFrame": "25",
+            "Weight": "80.0"
+        },
+        "patient119": {
+            "ED": "1",
+            "ES": "9",
+            "Group": "RV",
+            "Height": "162.0",
+            "NbFrame": "15",
+            "Weight": "60.0"
+        },
+        "patient120": {
+            "ED": "1",
+            "ES": "8",
+            "Group": "MINF",
+            "Height": "161.0",
+            "NbFrame": "25",
+            "Weight": "55.0"
+        },
+        "patient121": {
+            "ED": "1",
+            "ES": "10",
+            "Group": "RV",
+            "Height": "183.0",
+            "NbFrame": "35",
+            "Weight": "75.0"
+        },
+        "patient122": {
+            "ED": "1",
+            "ES": "6",
+            "Group": "DCM",
+            "Height": "165.0",
+            "NbFrame": "14",
+            "Weight": "65.0"
+        },
+        "patient123": {
+            "ED": "1",
+            "ES": "11",
+            "Group": "NOR",
+            "Height": "170.0",
+            "NbFrame": "30",
+            "Weight": "70.0"
+        },
+        "patient124": {
+            "ED": "1",
+            "ES": "7",
+            "Group": "RV",
+            "Height": "174.0",
+            "NbFrame": "15",
+            "Weight": "64.0"
+        },
+        "patient125": {
+            "ED": "1",
+            "ES": "7",
+            "Group": "NOR",
+            "Height": "160.0",
+            "NbFrame": "15",
+            "Weight": "46.0"
+        },
+        "patient126": {
+            "ED": "1",
+            "ES": "7",
+            "Group": "RV",
+            "Height": "137.0",
+            "NbFrame": "15",
+            "Weight": "35.0"
+        },
+        "patient127": {
+            "ED": "1",
+            "ES": "7",
+            "Group": "RV",
+            "Height": "165.0",
+            "NbFrame": "18",
+            "Weight": "54.0"
+        },
+        "patient128": {
+            "ED": "1",
+            "ES": "11",
+            "Group": "NOR",
+            "Height": "170.0",
+            "NbFrame": "30",
+            "Weight": "74.0"
+        },
+        "patient129": {
+            "ED": "1",
+            "ES": "8",
+            "Group": "RV",
+            "Height": "183.0",
+            "NbFrame": "16",
+            "Weight": "75.0"
+        },
+        "patient130": {
+            "ED": "1",
+            "ES": "11",
+            "Group": "NOR",
+            "Height": "185.0",
+            "NbFrame": "30",
+            "Weight": "95.0"
+        },
+        "patient131": {
+            "ED": "1",
+            "ES": "9",
+            "Group": "DCM",
+            "Height": "164.0",
+            "NbFrame": "25",
+            "Weight": "64.0"
+        },
+        "patient132": {
+            "ED": "1",
+            "ES": "15",
+            "Group": "DCM",
+            "Height": "163.0",
+            "NbFrame": "30",
+            "Weight": "80.0"
+        },
+        "patient133": {
+            "ED": "1",
+            "ES": "10",
+            "Group": "DCM",
+            "Height": "185.0",
+            "NbFrame": "14",
+            "Weight": "121.0"
+        },
+        "patient134": {
+            "ED": "1",
+            "ES": "15",
+            "Group": "HCM",
+            "Height": "185.0",
+            "NbFrame": "35",
+            "Weight": "104.0"
+        },
+        "patient135": {
+            "ED": "1",
+            "ES": "10",
+            "Group": "MINF",
+            "Height": "184.0",
+            "NbFrame": "20",
+            "Weight": "95.0"
+        },
+        "patient136": {
+            "ED": "1",
+            "ES": "12",
+            "Group": "DCM",
+            "Height": "167.0",
+            "NbFrame": "24",
+            "Weight": "89.0"
+        },
+        "patient137": {
+            "ED": "1",
+            "ES": "11",
+            "Group": "MINF",
+            "Height": "170.0",
+            "NbFrame": "30",
+            "Weight": "68.0"
+        },
+        "patient138": {
+            "ED": "1",
+            "ES": "10",
+            "Group": "HCM",
+            "Height": "174.0",
+            "NbFrame": "30",
+            "Weight": "90.0"
+        },
+        "patient139": {
+            "ED": "1",
+            "ES": "8",
+            "Group": "NOR",
+            "Height": "175.0",
+            "NbFrame": "15",
+            "Weight": "75.0"
+        },
+        "patient140": {
+            "ED": "1",
+            "ES": "9",
+            "Group": "RV",
+            "Height": "165.0",
+            "NbFrame": "15",
+            "Weight": "68.0"
+        },
+        "patient141": {
+            "ED": "1",
+            "ES": "11",
+            "Group": "RV",
+            "Height": "170.0",
+            "NbFrame": "19",
+            "Weight": "75.0"
+        },
+        "patient142": {
+            "ED": "1",
+            "ES": "12",
+            "Group": "HCM",
+            "Height": "160.0",
+            "NbFrame": "30",
+            "Weight": "98.0"
+        },
+        "patient143": {
+            "ED": "1",
+            "ES": "12",
+            "Group": "MINF",
+            "Height": "161.0",
+            "NbFrame": "30",
+            "Weight": "85.0"
+        },
+        "patient144": {
+            "ED": "1",
+            "ES": "9",
+            "Group": "NOR",
+            "Height": "157.0",
+            "NbFrame": "25",
+            "Weight": "88.0"
+        },
+        "patient145": {
+            "ED": "1",
+            "ES": "13",
+            "Group": "MINF",
+            "Height": "171.0",
+            "NbFrame": "30",
+            "Weight": "80.0"
+        },
+        "patient146": {
+            "ED": "1",
+            "ES": "10",
+            "Group": "HCM",
+            "Height": "170.0",
+            "NbFrame": "30",
+            "Weight": "172.0"
+        },
+        "patient147": {
+            "ED": "1",
+            "ES": "9",
+            "Group": "RV",
+            "Height": "172.0",
+            "NbFrame": "19",
+            "Weight": "104.0"
+        },
+        "patient148": {
+            "ED": "1",
+            "ES": "10",
+            "Group": "MINF",
+            "Height": "170.0",
+            "NbFrame": "35",
+            "Weight": "70.0"
+        },
+        "patient149": {
+            "ED": "1",
+            "ES": "12",
+            "Group": "DCM",
+            "Height": "173.0",
+            "NbFrame": "25",
+            "Weight": "70.0"
+        },
+        "patient150": {
+            "ED": "1",
+            "ES": "12",
+            "Group": "NOR",
+            "Height": "158.0",
+            "NbFrame": "30",
+            "Weight": "56.0"
+        }
+    }
+}
