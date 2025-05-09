@@ -25,7 +25,7 @@ To achieve this, the project focuses on:
 - **Image Processing:** NumPy, SciPy, and OpenCV  
 - **Visualization:** Matplotlib and Plotly  
 - **Data Analysis:** Pandas and Seaborn  
-- **Deep Learning:** Still in research.
+- **Deep Learning:** 3D UNet and MONAI.
 
 ## Repository Structure
 - `metrics_and_processing.ipynb` – Analyzing scan metrics, identifying correlations, and evaluating processing techniques to refine preprocessing.
