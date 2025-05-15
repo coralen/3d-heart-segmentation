@@ -10,10 +10,12 @@ import logging
 import argparse
 from pathlib import Path
 import yaml
+import json
+
 
 class MedicalImagePipeline:
-    def __init__(self, config_path=None):
-        self.preprocessor = MedicalImagePreprocessor()
+    def __init__(self, config_path=None, scan_metrics_path=None):
+        self.preprocessor = MedicalImagePreprocessor(scan_metrics_path=scan_metrics_path)
         self.config = self.load_config(config_path)
         self.stages = self._build_pipeline()
 
@@ -70,7 +72,7 @@ class MedicalImagePipeline:
 
 
 class MedicalImagePreprocessor:
-    def __init__(self, remove_noise_threshold=0.01):
+    def __init__(self, remove_noise_threshold=0.01, scan_metrics_path=None, min_spacing=(1.0, 1.0, 1.0)):
         """
         Initialize the medical image preprocessing pipeline.
         
@@ -78,6 +80,13 @@ class MedicalImagePreprocessor:
             remove_noise_threshold (float): Threshold for removing low-intensity noise
         """
         self.noise_threshold = remove_noise_threshold
+        self.min_spacing = min_spacing 
+        
+        if scan_metrics_path:
+            with open(scan_metrics_path, 'r') as f:
+                metrics = json.load(f)
+                spacings = [tuple(v["Voxel Spacing"]) for d in metrics.values() for v in d.values()]
+                self.min_spacing = tuple(np.min(spacings, axis=0)) if spacings else self.min_spacing
         
     def detect_and_correct_flip_handler(self, image, mask):
         image_data = self.detect_and_correct_flip(image)
@@ -123,20 +132,20 @@ class MedicalImagePreprocessor:
         mask_valid = mask > 0
         
         if np.sum(img_valid) == 0 or np.sum(mask_valid) == 0:
-            return mask  # Skip alignment if either image is empty
+            return image, mask  # Skip alignment if either image is empty
             
         img_com = center_of_mass(image * img_valid)
         mask_com = center_of_mass(mask * mask_valid)
 
         if any(np.isnan(img_com)) or any(np.isnan(mask_com)):
-            return mask  # Skip alignment if invalid center found
+            return image, mask  # Skip alignment if invalid center found
 
         shift_vector = np.array(img_com) - np.array(mask_com)
         aligned_mask = shift(mask, shift_vector, order=0)  # Use order=0 for nearest neighbor to preserve mask values
         
         # Ensure binary mask remains binary
         if np.array_equal(np.unique(mask), [0, 1]):
-            aligned_mask = (aligned_mask > 0.5).astype(mask.dtype)
+            aligned_mask = aligned_mask.astype(mask.dtype)
             
         return image, aligned_mask
         
@@ -167,7 +176,7 @@ class MedicalImagePreprocessor:
         if np.max(image) > np.min(image):
             image = (image - np.min(image)) / (np.max(image) - np.min(image))
             
-        mask = mask.astype(np.float32)
+        #mask = (mask > 0).astype(np.uint8)
         return image, mask
 
     def denoise(self, image):
@@ -191,8 +200,8 @@ class MedicalImagePreprocessor:
         return image
         
     def resample_handler(self, image, mask):
-        image_data = self.resample(image, reference_image=None, is_mask=False)
-        mask_data = self.resample(mask, reference_image=image_data, is_mask=True)
+        image_data = self.resample(image, new_spacing=self.min_spacing, reference_image=None, is_mask=False)
+        mask_data = self.resample(mask, new_spacing=self.min_spacing, reference_image=image_data, is_mask=True)
         return image_data, mask_data
 
     def resample(self, image, new_spacing=(1.0, 1.0, 1.0), reference_image=None, is_mask=False):
@@ -258,9 +267,9 @@ class MedicalImagePreprocessor:
         return sitk.GetArrayFromImage(resampled_image)
 
 
-def process_dataset(input_dir, output_dir, config_path="config.yml"):
+def process_dataset(input_dir, output_dir, config_path="config.yml", scan_metrics_path=None):
     """Process all images and masks in a dataset using the pipeline."""
-    pipeline = MedicalImagePipeline(config_path)
+    pipeline = MedicalImagePipeline(config_path, scan_metrics_path)
     
     # Define input and output paths for images and masks
     image_dir = os.path.join(input_dir, "images")
@@ -298,6 +307,8 @@ def main():
                         help="Input directory containing /images and /masks folders")
     parser.add_argument("--output_dir", type=str, required=True,
                         help="Output directory for processed images and masks")
+    parser.add_argument("--scan_metrics_path", type=str, required=True, 
+                        help="Path to scan_metrics JSON file")
     parser.add_argument("--spacing_x", type=float, default=1.0,
                         help="Target spacing in x dimension (default: 1.0)")
     parser.add_argument("--spacing_y", type=float, default=1.0,
@@ -313,8 +324,9 @@ def main():
     # Process the dataset
     process_dataset(
         input_dir=args.input_dir,
-        output_dir=args.output_dir
-        #target_spacing=(args.spacing_x, args.spacing_y, args.spacing_z)
+        output_dir=args.output_dir,
+        config_path="config.yml",
+        scan_metrics_path=args.scan_metrics_path
     )
     
     print("Processing complete!")
