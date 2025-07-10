@@ -1,7 +1,0 @@
-# config.yml
-flip_correction: true
-bias_correction: false
-denoising: true
-resampling: true
-intensity_normalization: true
-mask_alignment: true
